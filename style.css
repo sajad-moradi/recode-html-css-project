@@ -1,0 +1,69 @@
+body {
+    background: url(body-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    background-color: rgb(190, 49, 49);
+    padding: 15px;
+    margin: 2px;
+}
+
+.nav>.nav-item {
+    padding: 12;
+}
+
+header {
+    background-color: aqua;
+    padding: 15px;
+    margin: 15px;
+}
+
+main {
+    background-color: aqua;
+    padding: 15px;
+    margin: 15px;
+    display: table;
+}
+
+footer {
+    background-color: aqua;
+    padding: 1px;
+    margin: 15px;
+}
+
+header>h1,
+h4 {
+    padding-left: 13;
+}
+
+footer>p {
+    text-align: center;
+}
+
+article {
+    border: crimson solid;
+    background-color: blue;
+    padding: 15px;
+    display: table-cell;
+    margin: 2px;
+}
+
+main>article>section {
+    background-color: beige;
+    padding: 15px;
+    margin: 2px;
+}
+
+aside {
+    border: crimson solid;
+    background-color: chartreuse;
+    padding: 5px;
+    margin: 2px;
+    display: table-cell;
+}
+
+img {
+    width: 100;
+}
