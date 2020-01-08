@@ -1,69 +1,76 @@
-body {
-    background: url(body-background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.header {
+    background-color: aqua;
+    padding: .05%;
+    margin: .5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 7%;
+    justify-content: flex-start;
+    margin: .5%;
+}
+
+.top-headers {
+    display: flex;
+    flex-direction: column;
+    margin: .5%;
+    margin-left: 1%;
 }
 
 .nav {
-    background-color: rgb(190, 49, 49);
-    padding: 15px;
-    margin: 2px;
-}
-
-.nav>.nav-item {
-    padding: 12;
-}
-
-header {
-    background-color: aqua;
-    padding: 15px;
-    margin: 15px;
-}
-
-main {
-    background-color: aqua;
-    padding: 15px;
-    margin: 15px;
-    display: table;
-}
-
-footer {
-    background-color: aqua;
-    padding: 1px;
-    margin: 15px;
-}
-
-header>h1,
-h4 {
-    padding-left: 13;
-}
-
-footer>p {
-    text-align: center;
-}
-
-article {
-    border: crimson solid;
+    display: flex;
+    flex-direction: row;
     background-color: blue;
-    padding: 15px;
-    display: table-cell;
-    margin: 2px;
+    margin: .5%;
 }
 
-main>article>section {
-    background-color: beige;
-    padding: 15px;
-    margin: 2px;
+.nav-item {
+    text-decoration: none;
+    color: white;
+    padding: .7%;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
-aside {
-    border: crimson solid;
-    background-color: chartreuse;
-    padding: 5px;
-    margin: 2px;
-    display: table-cell;
+a:hover {
+    background-color: green;
+    font-size: 1.3rem;
 }
 
-img {
-    width: 100;
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.uname,
+.pass {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-end;
+    padding: 1%;
+}
+
+.login-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1%;
+}
+
+form input {
+    height: 1%;
+}
+
+.nav-item.active {
+    background-color: indigo;
 }
