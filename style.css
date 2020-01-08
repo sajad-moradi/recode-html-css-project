@@ -71,6 +71,6 @@ form input {
     height: 1%;
 }
 
-a.active {
+a.nav-item.active {
     background-color: indigo;
 }
